@@ -1,0 +1,33 @@
+body{
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: auto 500px auto;
+    grid-template-rows: 60px 400px 60px;
+    grid-gap: 3px;
+
+    /* justify-content: center; */
+    /* display: grid;
+    grid-template-columns: 1fr 60% 1fr;
+    grid-template-rows: 1fr 200px 150px 1fr;
+    grid-gap: 10px; */
+}
+
+
+.header{
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.container{
+    background-color: rgba(0,0,0,0.2);
+    width: 80%;
+    padding: 3%;
+    border: 1px solid grey;
+
+}
+
+.selectionBox{
+    padding-top:6%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Background Color Selector</title>
+    </head>
+    <body id="body">
+
+        <div class="container">
+
+            <section id="header">
+                <h1>Background Color Selector</h1>
+                <p>Use the selector to change the color of this page.</p>
+            </section>
+
+
+                <div class="selectionBlock">
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="firstName">
+
+                <div class="selectionBox">
+                    <label for="">Backgrounds</label>
+                    <select class="list" name="background" id="background" >
+                        <option data-color="color not chosen" value="white">...</option>
+                        <option data-color="Brick" value="#B03F3B">Brick</option>
+                        <option data-color="Bamboo Green" value="#94A437">Bamboo Green</option>
+                        <option data-color="Ice Blue" value="#629CCB">Ice Blue</option>
+                        <option data-color="Grape" value="#7D5EC9">Grape</option>
+                        <option data-color="Wine" value="#67224F">Wine</option>
+                        <option data-color="Coffee" value="#774228">Coffee</option>
+                    </select>
+                    <!-- <button type="button" name="submit" id="submit">Submit</button> -->
+                </div>
+            </div>
+
+             <h3 id="result"></h3>
+        </div>
+    <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
