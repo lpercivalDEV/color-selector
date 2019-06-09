@@ -7,35 +7,61 @@
     </head>
     <body id="body">
 
-        <div class="container">
 
-            <section id="header">
+        <section id="header">
                 <h1>Background Color Selector</h1>
-                <p>Use the selector to change the color of this page.</p>
-            </section>
+                <p>Click on a box to change the color of this page.</p>
+                <p>
+                    This simple app demonstrates DOM manipulation. An event listener was added to each box using a for loop. Once a box is clicked, a function is fired that pulls the background color value of the box and sets the page background color to that same value.
+                </p>
+        </section>
 
 
-                <div class="selectionBlock">
-                    <label for="">Name</label>
-                    <input type="text" name="name" id="firstName">
+        <!-- css grid color blocks -->
 
-                <div class="selectionBox">
-                    <label for="">Backgrounds</label>
-                    <select class="list" name="background" id="background" >
-                        <option data-color="color not chosen" value="white">...</option>
-                        <option data-color="Brick" value="#B03F3B">Brick</option>
-                        <option data-color="Bamboo Green" value="#94A437">Bamboo Green</option>
-                        <option data-color="Ice Blue" value="#629CCB">Ice Blue</option>
-                        <option data-color="Grape" value="#7D5EC9">Grape</option>
-                        <option data-color="Wine" value="#67224F">Wine</option>
-                        <option data-color="Coffee" value="#774228">Coffee</option>
-                    </select>
-                    <!-- <button type="button" name="submit" id="submit">Submit</button> -->
-                </div>
+            <div id="colors">
+                <div id="div1" class="box"></div>
+                <div id="div2" class="box"></div>
+                <div id="div3" class="box"></div>
+                <div id="div4" class="box"></div>
+                <div id="div5" class="box"></div>
+                <div id="div6" class="box"></div>
+                <div id="div7" class="box"></div>
+                <div id="div8" class="box"></div>
+                <div id="div9" class="box"></div>
+                <div id="div10" class="box"></div>
+                <div id="div11" class="box"></div>
+                <div id="div12" class="box"></div>
+                <div id="div13" class="box"></div>
+                <div id="div14" class="box"></div>
+                <div id="div15" class="box"></div>
+                <div id="div16" class="box"></div>
             </div>
 
-             <h3 id="result"></h3>
+
+        <!-- <div class="selectionBlock">
+            <label for="">Name</label>
+            <input type="text" name="name" id="firstName">
+
+        <div class="selectionBox">
+            <label for="">Backgrounds</label>
+            <select class="list" name="background" id="background" >
+                <option data-color="color not chosen" value="white">...</option>
+                <option data-color="Brick" value="#B03F3B">Brick</option>
+                <option data-color="Bamboo Green" value="#94A437">Bamboo Green</option>
+                <option data-color="Ice Blue" value="#629CCB">Ice Blue</option>
+                <option data-color="Grape" value="#7D5EC9">Grape</option>
+                <option data-color="Wine" value="#67224F">Wine</option>
+                <option data-color="Coffee" value="#774228">Coffee</option>
+            </select>
+            <button type="button" name="submit" id="submit">Submit</button>
         </div>
+    </div> -->
+
+     <!-- <h3 id="result"></h3>
+    </div>  -->
+
+
     <script type="text/javascript" src="main.js"></script>
     </body>
 </html>
