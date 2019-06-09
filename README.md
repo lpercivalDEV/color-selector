@@ -1,5 +1,7 @@
 # Color Selector
 
+![Image](bg-color-preview.png "color selector preview")
+
 ### Tech Used:
 HTML, CSS (grid), JavaScript.
 
