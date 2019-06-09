@@ -4,7 +4,7 @@
 HTML, CSS (grid), JavaScript.
 
 ### Instructions:
-Click [here] () to see a live demo.
+Click [here]() to see a live demo.
 1. Clone repo
 2. Open index.html in a browser
 3. Have fun!
