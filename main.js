@@ -1,15 +1,16 @@
 
 // selection based on color grid
 let grid = document.getElementsByClassName('box');
+let text = document.getElementsByClassName('colorLabels');
 
 //adding event listener to each box in the grid
 for(var i = 0; i < grid.length; i++) {
     grid[i].addEventListener("click", function(){
-        console.log("dog");
         changeColor(event);
-
     });
-
+    text[i].addEventListener("click", function(){
+        event.stopPropagation();
+    });
 };
 
 //change color of background based on clicked box
@@ -22,12 +23,13 @@ function changeColor(event) {
 
 
 
-// selection based on pull down menu
+//Old version of app -> selection based on pull down menu
+// 
 // let user = document.getElementById("firstName");
 // let choice = document.getElementById("background");
 // let printResult = document.getElementById("result");
-
-
+//
+//
 // document.getElementById('background').onchange = function(){
 //     body.style.backgroundColor = background.value;
 //     switch (choice.value) {
